@@ -18,6 +18,10 @@ import Bienvenido from "../Pages/Bienvenido";
 import Clases from "../Pages/Clases";
 import Docentes from "../Pages/Docentes";
 import Crear from "../Pages/Crear";
+import Conceptos from "../Pages/Conceptos";
+import ConfigE from "../Pages/ConfigE";
+import lvl1 from "../Pages/lvl1";
+import lvl2 from "../Pages/lvl2";
 
 class App extends React.Component{
     render() {
@@ -41,6 +45,10 @@ class App extends React.Component{
             <Route exact path="/Clases" component={Clases} />
             <Route exact path="/Docente" component={Docentes} />
             <Route exact path="/Crear" component={Crear} />
+            <Route exact path="/Conceptos" component={Conceptos} />
+            <Route exact path="/ConfigE" component={ConfigE} />
+            <Route exact path="/lvl1" component={lvl1} />
+            <Route exact path="/lvl2" component={lvl2} />
             <Route component ={NotFound} />
              </Switch>
             </Layout>

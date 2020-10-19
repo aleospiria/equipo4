@@ -12,7 +12,7 @@ function levels() {
         <br></br>
         <br></br>
         <div id="lvls">
-        <Link to="/Temas">
+        <Link to="/lvl1">
         <button class="btn btn-success btn-lg btn-circle" >1</button>
         </Link>
         <p>  </p>

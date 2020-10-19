@@ -10,11 +10,11 @@ function Temas() {
         <br></br>
         <br></br>
         <div >
-        <Link to="/conceptos_basicos">
+        <Link to="/Conceptos">
         <button className="btn btn-success btn-lg" id="button_temas">Conceptos basicos</button>
         </Link>
         <p>  </p>
-        <Link to="/configuracion_electronica">
+        <Link to="/ConfigE">
         <button className="btn btn-warning btn-lg" id="button_temas">Configuracion electronica</button>
         </Link>
         <p>  </p>
