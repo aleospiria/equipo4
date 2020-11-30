@@ -1,0 +1,19 @@
+{
+    "docs": [
+        {"id":"1", "email": "docente1@gmail.com", "username":"Martin Torres", "ins":"Miranda", "curso":"11", "passw":"123", "class":"1", "code":"1212" }
+    ],
+    "clases": [
+        {"id":"1", "name":"Alquenos y Alquinos", "NoStudents": "21", "description":"Clase para aprender acerca de la nomenclatura de distintos alquenos y alquinos", "curso":"11", "doc":"Martin Torres", "EDoc":"docente1@gmail.com"}
+
+    ],
+    
+    "students": [
+        {"id":"1", "email": "davidewe@gmail.com", "username":"David Stiven", "ins":"Miranda", "curso":"11", "passw":"1234", "class":"2", "code":"2323", "pos":"1", "score":"990", "streak":"4", "achi":"2"}
+
+    ],
+
+    "actividad": [
+        {"id":"1", "date":"01/01/2021", "nota":"0", "tema":"Alquenos y Alquinos", "curso":"11" }
+    ]
+    
+}

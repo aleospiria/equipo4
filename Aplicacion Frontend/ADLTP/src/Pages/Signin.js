@@ -65,7 +65,7 @@ function Signin() {
           required=""
         />
         <br></br>
-        <Link to="/Welcome">
+        <Link to="/">
         <button class="btn btn-lg btn-success btn-block" type="submit">
           ¡REGISTRATE!
         </button>
