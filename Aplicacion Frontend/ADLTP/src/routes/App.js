@@ -2,7 +2,6 @@ import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from '../Pages/home';
 import Login from '../Pages/Login';
-import Pricing from "../Pages/Pricing";
 import NotFound from "../Pages/NotFound";
 import Layout from "../Components/Layout";
 import Signin from "../Pages/Signin";
@@ -22,6 +21,7 @@ import Conceptos from "../Pages/Conceptos";
 import ConfigE from "../Pages/ConfigE";
 import lvl1 from "../Pages/lvl1";
 import lvl2 from "../Pages/lvl2";
+import resultado from "../Pages/resultado";
 
 class App extends React.Component{
     render() {
@@ -31,7 +31,6 @@ class App extends React.Component{
              <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/login" component={Login} />
-            <Route exact path="/pricing" component={Pricing} />
             <Route exact path="/signin" component={Signin} />
             <Route exact path="/password" component={Password} />
             <Route exact path="/levels" component={levels} />
@@ -49,6 +48,7 @@ class App extends React.Component{
             <Route exact path="/ConfigE" component={ConfigE} />
             <Route exact path="/lvl1" component={lvl1} />
             <Route exact path="/lvl2" component={lvl2} />
+            <Route exact path="/resultado" components={resultado} />
             <Route component ={NotFound} />
              </Switch>
             </Layout>

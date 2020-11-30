@@ -9,7 +9,7 @@ import face from '../images/face.png';
 import Presentacion from "../images/Presentacion.png";
 
 function Header(props) {
-  const loged = false;
+  var loged = true;
   return (
     <div className="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm mx-auto" id="navBar">
       <img src={Presentacion}></img>
@@ -48,12 +48,16 @@ function Header(props) {
       <Link className="btn btn-danger" to="/Login">
         Cerrar Sesion
       </Link>:
-      <Link className="btn btn-primary" to="/Login">
+      <Link className="btn btn-primary" to="/Login" onClick={unloged}>
         Iniciar Sesion
       </Link>
 }
     </div>
   );
+}
+
+function unloged() {
+  var loged = true;
 }
 
 export default Header;

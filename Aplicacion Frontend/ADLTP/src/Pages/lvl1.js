@@ -4,6 +4,12 @@ import tabla_periodica from "../images/tabla periodica.jpg";
 import tabla_periodicasin from "../images/tabla periodica sin.png";
 import css from '../Components/styles/general.css';
 
+var p= 0
+
+function Points(){
+    var p = p+10
+}
+
 function lvl1() {
     return(
         <div class="contenido">
@@ -18,7 +24,7 @@ function lvl1() {
         <input type="checkbox" class="form-check-input" id="exampleCheck1"></input>
         <label class="form-check-label" for="exampleCheck1"> 5 </label>
         <br></br>
-        <input type="checkbox" class="form-check-input" id="exampleCheck2" onClick="myFunction()"></input>
+        <input type="checkbox" class="form-check-input" id="exampleCheck2" onClick={Points}></input>
         <label class="form-check-label" for="exampleCheck2"> 3 </label>
         <br></br>
         <input type="checkbox" class="form-check-input" id="exampleCheck3"></input>
@@ -38,7 +44,7 @@ function lvl1() {
         <h2>¿Los periodos se pueden ver en las columnas o filas?</h2>
         <br></br>
         <div class="form-check" id="opciones">
-        <input type="checkbox" class="form-check-input" id="exampleCheck5" onClick="myFunction()"></input>
+        <input type="checkbox" class="form-check-input" id="exampleCheck5" onClick={Points}></input>
         <label class="form-check-label" for="exampleCheck5"> FILAS </label>
         <br></br>
         <input type="checkbox" class="form-check-input" id="exampleCheck6"></input>
@@ -56,7 +62,7 @@ function lvl1() {
         <h2>¿Cuales son las categorias en las que se divide los elementos?</h2>
         <br></br>
         <div class="form-check" id="opciones">
-        <input type="checkbox" class="form-check-input" id="exampleCheck7" onClick="myFunction()"></input>
+        <input type="checkbox" class="form-check-input" id="exampleCheck7" onClick={Points}></input>
         <label class="form-check-label" for="exampleCheck7"> -Metales <br></br> -No Metales <br></br> -Metaloides <br></br> </label>
         <br></br>
         <br></br>
@@ -65,11 +71,11 @@ function lvl1() {
         <br></br>
         <br></br>
         </div>
-        <Link to="/levels">
+        <Link to="/resultado">
         <button className="btn btn-success btn-lg" id="button_lvls">Finalizar</button>
         </Link>        
         </div>
-        
+
     );
     
 }

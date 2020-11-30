@@ -4,6 +4,8 @@ import "../Components/ejemplo.css";
 import "../Components/styles/general.css";
 import logo from "../images/Logo.jpg";
 import Arrow from "../images/Flecha.png";
+import unloged from "../Components/Header.js";
+
 
 function Login() {
   return (
