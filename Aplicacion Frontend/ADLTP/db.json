@@ -1,19 +1,40 @@
 {
     "docs": [
-        {"id":"1", "email": "docente1@gmail.com", "username":"Martin Torres", "ins":"Miranda", "curso":"11", "passw":"123", "class":"1", "code":"1212" }
+        {"id":"1", "email_doc": "docente1@gmail.com", "username_doc":"Martin Torres", "ins":"Miranda", "curso":"11", "passw":"123", "class":"1", "code":"1212" },
+        {"id":"1", "email_doc": "emilia23@gmail.com", "username_doc":"Emilia Rodriguez", "ins":"Miranda", "curso":"10", "passw":"345", "class":"2", "code":"1212"}
     ],
     "clases": [
-        {"id":"1", "name":"Alquenos y Alquinos", "NoStudents": "21", "description":"Clase para aprender acerca de la nomenclatura de distintos alquenos y alquinos", "curso":"11", "doc":"Martin Torres", "EDoc":"docente1@gmail.com"}
+        {"id":"1", "name_class":"Alquenos y Alquinos con Martin", "No_Students": "21", "description":"Clase para aprender acerca de la nomenclatura de distintos alquenos y alquinos", "curso":"11", "doc":"Martin Torres", "email_doc":"docente1@gmail.com"},
+        {"id":"2", "name_class":"Atomos y mas", "No_Students":"34", "description":"En esta clase aprenderemos acerca de las particulas que componen el mundo que nos rodea", "curso":"10", "doc":"Emilia Rodriguez", "email_doc":"emilia23@gmail.com"},
+        {"id":"3", "name_class":"Nomenclatura de gases nobles y mas", "No_Students":"34", "description":"Nomenclatura sobre los gases y algunas leyes de gases ideales", "curso":"10", "doc":"Emilia Rodriguez", "email_doc":"emilia23@gmail.com"}
 
     ],
     
     "students": [
-        {"id":"1", "email": "davidewe@gmail.com", "username":"David Stiven", "ins":"Miranda", "curso":"11", "passw":"1234", "class":"2", "code":"2323", "pos":"1", "score":"990", "streak":"4", "achi":"2"}
+        {"id":"1", "email_es": "davidewe@gmail.com", "username":"David Stiven", "ins":"Miranda", "curso":"11", "passw":"1234", "class":"2", "code":"2323", "pos":"1", "score":"990", "streak":"4", "achi":"2"},
+        {"id":"1", "email_es": "aleospiria123@gmail.com", "username":"Victorfreefire", "ins":"Miranda", "curso":"11", "passw":"TxV", "class":"3", "code":"2323", "pos":"2", "score":"870", "streak":"6", "achi":"2"}
 
     ],
 
     "actividad": [
-        {"id":"1", "date":"01/01/2021", "nota":"0", "tema":"Alquenos y Alquinos", "curso":"11" }
+        {"id":"1", "date":"01/01/2021", "nota":"0", "tema":"Alquenos y Alquinos", "curso":"11", "clase_pa":"Alquenos y Alquinos con Martin"},
+        {"id":"2", "date":"null", "nota":"0", "tema":"Atomos", "curso":"11", "clase_pa":"Atomos y mas"}
+    ],
+
+    "ranking": [
+        {"id":"1", "posicion":"1", "username":"David Stiven", "score":"990", "local":"Colombia", "curso":"11"},
+        {"id":"2", "posicion":"2", "username":"Victorfreefire", "score":"870", "local":"Colombia", "curso":"11"}
+    ],
+
+    "consulta": [
+        {"id":"1", "tema_consulta":"Alquenos y Alquinos", "email_es":"davidewe@gmail.com"},
+        {"id":"2", "tema_consulta":"Alquenos y Alquinos", "email_es":"aleospiria123@gmail.com"}
+    ],
+
+    "topic": [
+        {"id":"1", "tema":"Alquenos y Alquinos", "name_class":"Alquenos y Alquinos con Fabio", "description":"Nomenclatura de Alquenos y Alquinos", "dificultad":"Media", "Actividad":"Responder preguntas respecto al tema" },
+        {"id":"2", "tema":"Atomos", "name_class":"Atomos y mas", "description":"Concepto de Atomos", "dificultad":"facil", "Actividad":"Hacer maqueta"},
+        {"id":"3", "tema":"Gases", "name_class":"Nomenclatura de gases nobles y mas", "description":"Gases nobles y sus leyes", "dificultad":"Media", "Actividad":"null" }
     ]
     
 }

@@ -64,6 +64,13 @@ function Signin() {
           placeholder="Confirmar Contraseña"
           required=""
         />
+        <input
+          type="email"
+          id="inputrole"
+          class="form-control"
+          placeholder="Rol Academico"
+          required=""
+        />
         <br></br>
         <Link to="/">
         <button class="btn btn-lg btn-success btn-block" type="submit">

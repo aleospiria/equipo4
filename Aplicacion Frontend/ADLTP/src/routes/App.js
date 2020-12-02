@@ -21,7 +21,7 @@ import Conceptos from "../Pages/Conceptos";
 import ConfigE from "../Pages/ConfigE";
 import lvl1 from "../Pages/lvl1";
 import lvl2 from "../Pages/lvl2";
-import resultado from "../Pages/resultado";
+import Resultado from "../Pages/resultado";
 
 class App extends React.Component{
     render() {
@@ -48,7 +48,7 @@ class App extends React.Component{
             <Route exact path="/ConfigE" component={ConfigE} />
             <Route exact path="/lvl1" component={lvl1} />
             <Route exact path="/lvl2" component={lvl2} />
-            <Route exact path="/resultado" components={resultado} />
+            <Route exact path="/resultado" component={Resultado} />
             <Route component ={NotFound} />
              </Switch>
             </Layout>

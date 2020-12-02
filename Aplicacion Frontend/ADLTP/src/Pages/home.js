@@ -21,7 +21,6 @@ function Home() {
         <Link to="/Login">
         <button className="btn btn-outline-success"> YA ESTOY REGISTRADO </button>
         </Link>
-
         </div>
 
     );
